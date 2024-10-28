@@ -23,6 +23,9 @@ ul li a{
 }
 
 header{
+    height: 100vh;
+    width: 100;
+    background-image: url(../images/backround.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
