@@ -1,0 +1,28 @@
+@import"group-mixins";
+nav{
+    @include font;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 4vh;
+    background-color: $bg-nav;
+    padding-bottom: 6vh;
+    .logo img{
+        border-radius: 100px;
+        margin-top: 6vh;
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        a{
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            color: $color-white;
+        }
+        a :hover{
+            color: $col;
+        }
+    }
+}

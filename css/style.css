@@ -4,6 +4,7 @@
 }
 
 nav {
+  font-family: sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,14 +21,18 @@ nav ul {
   list-style-type: none;
   display: flex;
 }
-nav ul li a {
+nav ul a {
   justify-content: center;
   align-items: center;
   margin: 20px;
   color: white;
 }
+nav ul a :hover {
+  color: #FF9F19;
+}
 
 header {
+  font-family: sans-serif;
   height: 120vh;
   background-image: url(../images/backround.jpg);
   display: flex;
@@ -40,7 +45,8 @@ header h1 {
   text-align: center;
   color: #CD7415;
   font-size: 100px;
-  margin-right: 65vh;
+  margin-top: 5vh;
+  margin-right: 60vh;
 }
 header span {
   color: white;
@@ -54,6 +60,7 @@ header span {
 }
 
 .container {
+  font-family: sans-serif;
   margin: 10vh 20vh;
 }
 .container h2 {
@@ -68,20 +75,29 @@ header span {
   margin-top: 10vh;
   display: flex;
 }
-.container .t p {
+.container .t .para {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10vh;
   margin-right: 15vh;
+}
+.container .t .para p {
+  font-size: x-large;
 }
 .container .t img {
   border-radius: 15px;
   height: 60vh;
-  width: 170vh;
+  width: 450vh;
 }
 .container .c {
   margin-top: 10vh;
   display: flex;
 }
-.container .c p {
+.container .c .para {
   margin-right: 15vh;
+}
+.container .c .para p {
+  font-size: x-large;
 }
 .container .c img {
   border-radius: 15px;
@@ -128,6 +144,7 @@ header span {
 }
 
 footer {
+  font-family: sans-serif;
   background-color: #E89EA2;
 }
 footer .footer {
@@ -164,9 +181,11 @@ footer .footer-C {
 footer .footer-C h2 {
   margin-bottom: 1vh;
 }
-footer .footer-C p {
+footer .footer-C .p {
   color: white;
-  margin-bottom: 9vh;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5vh;
 }
 footer .footer-R {
   display: flex;
