@@ -1,0 +1,79 @@
+
+@import"group-mixins";
+.container{
+    @include font;
+    margin: 10vh 20vh;
+    h2{
+        margin-bottom: 10vh;
+        color: $col;
+        font-size: xx-large;
+    }
+    h3{
+        font-size: x-large;
+    }
+    .t{
+        margin-top: 10vh;
+        display: flex;
+        .para{
+            display: flex;
+            flex-direction: column;
+            row-gap: 10vh;
+            margin-right: 15vh;
+            p{
+                font-size: x-large;
+            }
+        }
+        img{
+            border-radius: 15px;
+            height: 60vh;
+            width: 450vh;
+        }
+    }
+    .c{
+        margin-top: 10vh;
+        display: flex;
+        .para{
+            margin-right: 15vh;
+            p{
+                font-size: x-large;
+            }
+        }
+        img{
+            border-radius: 15px;
+            height: 60vh;
+            width: 100vh;
+    
+        }
+    }
+    .b{
+        margin-top: 10vh;
+        display: flex;
+        row-gap: 10vh;
+        flex-direction: column;
+        img{
+            height: 100vh;
+            width: 100%;
+            border-radius: 15px;
+        } 
+        .cards{
+            display: flex;
+            justify-content: space-between;
+            .quality{
+                display: flex;
+                column-gap: 5vh;
+            }
+            .call{
+                display: flex;
+                column-gap: 5vh;
+            }
+        }
+        span{
+            background-color: $bg-color-span;
+            padding: 2vh;
+            margin-right: 163vh;
+            text-align: center;
+            border-radius: 50vh;
+            color: #ffff;
+        }
+    }
+}
