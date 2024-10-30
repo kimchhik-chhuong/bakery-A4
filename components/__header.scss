@@ -1,0 +1,31 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 4vh;
+    background-color: #cb893e;
+    padding-bottom: 6vh;
+}
+.logo img{
+    border-radius: 100px;
+    margin-top: 6vh;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+ul li a{
+    text-decoration: none;
+    color: $color-a ;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
