@@ -1,72 +1,74 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 nav{
-  background-color: #E89EA2;
+  font-family: sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 20px;
-  gap: 30px;
-  li{
-    list-style: none;
+  row-gap: 4vh;
+  background-color: lightcoral;
+  padding-bottom: 6vh;
+  .logo img{
+      border-radius: 100px;
+      margin-top: 3vh;
   }
-  a{
-    text-decoration: none;
-    color: #fff;
-    padding: 10px;
+  ul{
+      list-style-type: none;
+      display: flex;
+      a{
+          justify-content: center;
+          align-items: center;
+          margin: 20px;
+          color: white;
+      }
+      li a{
+          padding: 8px;
+          border-radius: 7px;
+          transition: all .3s ease;
+      }
+      li a:hover,
+      li a.active{
+          background-color: #FF9F19 ;
+      }
+      
   }
-  a:hover{
-    // text-decoration: underline;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  }
-  .hover{
-    // text-decoration: underline;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  }
-}
-.back{
-  background-image: url(../images/background.png);
-  height: 110vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 header{
-  height: 120vh;
-  background-image: url(../images/background.jpg);
+  font-family: sans-serif;
+  height: 100vh;
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   h1{
       text-align: center;
       color: #CD7415;
       font-size: 100px;
-      margin-right: 65vh;
+      margin-top: 5vh;
+      margin-right: 60vh;
   }
   span{
-      font-size: 8vh;
-      color: #ffff;
-      padding: 1vh 8vh;
-      background-color: #FF9F19;
-      margin-right: 170vh;
+      font-size: 4vh;
+      padding: 2vh 8vh;
+      margin-right: 180vh;
       margin-left: 20vh;
       border-radius: 50vh;
       border: none;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  }
-  span:hover{
-    background-color: #0a90c5;
+    a{
+      color: white;
+      text-decoration: none;
+    }
   }
 }
+
 .head{
     text-align: center;
     padding: 10px;
@@ -107,6 +109,7 @@ header{
 }
 .off{
   font-size: 30px;
+  margin-top: 1rem;
 }
 #para:hover{
   text-decoration: underline;
@@ -117,7 +120,7 @@ header{
     align-items: center;
     font-size: 50px;
     color: rgb(244, 71, 9);
-    padding-top: 30px;
+    padding-top: 20px;
 }
 .para{
     display: flex;
@@ -170,7 +173,7 @@ header{
   display: flex;
   flex-direction: column;
   margin-right: 20px;
-  margin-top: 15px;
+  margin-top: 20px;
   .label{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -211,53 +214,160 @@ input, textarea{
 
 .map{
   background-image: url(../images/map.png);
-  height: 100vh;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  height: 80vh;
+  // box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 footer{
-  background: #E89EA2;
-  height: 60vh;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  font-family: sans-serif;
+  background-color: lightcoral;
   .footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
-    #baker{
-      color: orangered;
-      font-size: 40px;
-    }
-    #para{
-      color: white;
-      margin-top: 5%;
-      font-size: 20px;
-      #hot{
-        padding-top: 5rem;
-        color: orangered;
+      margin-left: 10vh;
+      margin-right: 10vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .footer-L{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      row-gap: 3vh;
+      margin-bottom: 10vh;
+      padding-top: 3vh;
+      h2{
+          color: #CD7415;
+          font-size: xx-large;
       }
-    }
-    img{
-      margin-left: 16%;
-      width: 30vh;
-      height: 30vh;
-    }
+      img{
+          margin-top: 3vh;
+          height: 20vh;
+          border-radius: 50vh;
+      }
   }
-  hr{
-    border: 1px solid #fff;
+  .footer-C{
+      display: flex;
+      flex-direction: column;
+      row-gap: 3vh;
+      h2{
+          margin-bottom: 1vh;
+          color: #333;
+      }
+      .p{
+          color: white;
+          display: flex;
+          flex-direction: column;
+          row-gap: 5vh;
+      }
   }
-  .images{
-    display: flex;
-    margin-left: 65rem;
-    width: 5vh;
-    height: 5vh;
-    gap: 1rem;
-    padding-top: 2%;
+  .footer-R{
+      display: flex;
+      flex-direction: column;
+      h2{
+          margin-bottom: 4vh;
+          color: #333;
+      }
+
+      // .number{
+      //     color: white;
+      //     margin-bottom: 8vh;
+      //     display: flex;
+      //     justify-content: center;
+      //     align-items: center;
+      //     flex-direction: column;
+      //     row-gap: 6vh;
+      // }
+  }
+  .icon{
+      display: flex;
+      justify-content: end;
+      column-gap: 4vh;
+      font-size: xx-large;
+      margin-right: 8vh;
+      .you-tube{
+          margin: 2vh 0;
+      }
+      .facebook{
+          margin: 2vh 0;
+      }
+      .twinter{
+          margin: 2vh 0;
+      }
+      .instargram{
+          color: rgb(218, 8, 8);
+          margin: 2vh 0;
+      }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// #Responsive mobile 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 *{
     margin: 0px;
