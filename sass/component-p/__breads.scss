@@ -1,0 +1,29 @@
+.breads{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10vh;
+    .bread{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .sesame-bread{
+            width: 150px;
+            height: 100px;
+        }
+        .milk-bread{
+            width: 150px;
+            height: 100px;
+        }
+        .chocolate-bread{
+            width: 150px;
+            height: 100px;
+        }
+        .grape-bread{
+            width: 150px;
+            height: 100px;
+        }
+    }
+}
+

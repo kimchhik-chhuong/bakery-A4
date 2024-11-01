@@ -1,0 +1,30 @@
+.burgers{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 15vh;
+    .burger{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .chicken-burger{
+            width: 150px;
+            height: 150px;
+        }
+        .ham-burger{
+            width: 140px;
+            height: 150px;
+        }
+        .beef-burger{
+            width: 150px;
+            height: 150px;
+        }
+        .chicken-pork-burger{
+            width: 170px;
+            height: 150px;
+        }
+    }
+}
+
+

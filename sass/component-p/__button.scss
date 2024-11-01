@@ -1,0 +1,14 @@
+button{
+    padding: 5px;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    border-radius: 15vh;
+    border: none;
+    background-color: orange;
+    color: rgb(61, 6, 37);
+    display: flex;   
+}
+button:hover{
+    background-color: hsl(42, 70%, 13%);
+    color: rgb(2, 0, 1);
+}

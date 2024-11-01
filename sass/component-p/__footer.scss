@@ -1,0 +1,71 @@
+// footer{
+//     @include font;
+//     background-color:$bg-nav;
+//     .footer{
+//         margin-left: 10vh;
+//         margin-right: 10vh;
+//         @include text-centered;
+//         justify-content: space-between;
+//     }
+//     .footer-L{
+//         @include text-centered;
+//         flex-direction: column;
+//         row-gap: 3vh;
+//         margin-bottom: 10vh;
+//         padding-top: 5vh;
+//         h2{
+//             color: $color;
+//             font-size: xx-large;
+//         }
+//         img{
+//             margin-top: 3vh;
+//             height: 20vh;
+//             border-radius: 50vh;
+//         }
+//     }
+//     .footer-C{
+//         display: flex;
+//         flex-direction: column;
+//         row-gap: 3vh;
+//         h2{
+//             margin-bottom: 1vh;
+//         }
+//         .p{
+//             color: $color-white;
+//             display: flex;
+//             flex-direction: column;
+//             row-gap: 5vh;
+//         }
+//     }
+//     .footer-R{
+//         display: flex;
+//         flex-direction: column;
+//         h2{
+//             margin-bottom: 4vh;
+//         }
+//         p{
+//             color: $color-white;
+//             margin-bottom: 14vh;
+//         }
+//     }
+//     .icon{
+//         display: flex;
+//         justify-content: end;
+//         column-gap: 4vh;
+//         font-size: xx-large;
+//         margin-right: 8vh;
+//         .you-tube{
+//             margin: 2vh 0;
+//         }
+//         .facebook{
+//             margin: 2vh 0;
+//         }
+//         .twinter{
+//             margin: 2vh 0;
+//         }
+//         .instargram{
+//             color: rgb(218, 8, 8);
+//             margin: 2vh 0;
+//         }
+//     }
+// }

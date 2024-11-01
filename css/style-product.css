@@ -1,20 +1,23 @@
 .container {
-  background-color: rgb(255, 243, 239);
+  background-color: rgb(248, 238, 236);
+  border-top: 1px solid lightcoral;
 }
 
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  margin-bottom: 25vh;
-  color: rgb(251, 167, 10);
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+  color: rgb(255, 149, 0);
   font-weight: 900;
-  text-shadow: 0.5px 1px 2px rgb(100, 41, 4);
+  text-shadow: 0.5px 0.5px 1px rgb(41, 20, 6);
 }
 
 h2 {
   font-family: Arial;
   text-align: center;
   margin: 20px 0px 20px 0px;
+  color: rgb(47, 44, 44);
 }
 
 p {
@@ -26,95 +29,125 @@ img {
   filter: drop-shadow(0.5px 1.5px 1px rgb(186, 185, 185));
 }
 
+nav {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 4vh;
+  background-color: #ffd19c;
+  padding-bottom: 6vh;
+}
+nav .logo img {
+  border-radius: 100px;
+  margin-top: 3vh;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+nav ul a {
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  color: white;
+  text-decoration: none;
+}
+nav ul li a {
+  padding: 8px;
+  border-radius: 7px;
+  transition: all 0.3s ease;
+}
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: rgb(253, 168, 182);
+}
+
 .breads {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 25vh;
+  margin-bottom: 10vh;
 }
-
-.bread {
-  margin: -10px;
-}
-
-.sesame-bread {
-  width: 300px;
-  height: 200px;
-}
-
-.milk-bread {
-  width: 200px;
-  height: 150px;
-}
-
-.chocolate-bread {
-  width: 200px;
-  height: 150px;
-}
-
-.grape-bread {
-  width: 150px;
-  height: 150px;
-}
-
-.breads button {
-  text-align: center;
+.breads .bread {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.breads .bread .sesame-bread {
+  width: 150px;
+  height: 100px;
+}
+.breads .bread .milk-bread {
+  width: 150px;
+  height: 100px;
+}
+.breads .bread .chocolate-bread {
+  width: 150px;
+  height: 100px;
+}
+.breads .bread .grape-bread {
+  width: 150px;
+  height: 100px;
 }
 
 .croissants {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 25vh;
+  margin-bottom: 10vh;
 }
-
-.cheese-croissant {
-  width: 250px;
-  height: 170px;
+.croissants .croissant {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
-.welnat-croissant {
-  width: 250px;
+.croissants .croissant .cheese-croissant {
+  width: 170px;
   height: 130px;
 }
-
-.chocolate-croissant {
-  width: 200px;
-  height: 150px;
+.croissants .croissant .welnat-croissant {
+  width: 170px;
+  height: 100px;
 }
-
-.milk-croissant {
-  width: 200px;
-  height: 130px;
+.croissants .croissant .chocolate-croissant {
+  width: 150px;
+  height: 120px;
+}
+.croissants .croissant .milk-croissant {
+  width: 150px;
+  height: 100px;
 }
 
 .loaves {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 25vh;
+  margin-bottom: 15vh;
 }
-
-.milk-loaf {
-  width: 250px;
+.loaves .loaf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.loaves .loaf .milk-loaf {
+  width: 200px;
   height: 150px;
 }
-
-.grape-loaf {
-  width: 250px;
-  height: 200px;
-}
-
-.chocolate-inside-loaf {
-  width: 300px;
+.loaves .loaf .grape-loaf {
+  width: 200px;
   height: 150px;
 }
-
-.chocolate-loaf {
-  width: 250px;
+.loaves .loaf .chocolate-inside-loaf {
+  width: 200px;
+  height: 150px;
+}
+.loaves .loaf .chocolate-loaf {
+  width: 200px;
   height: 150px;
 }
 
@@ -122,151 +155,168 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 25vh;
+  margin-bottom: 15vh;
   flex-wrap: wrap;
+}
+.cakes .cake {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cakes .cake .vanilla-cake {
+  width: 150px;
+  height: 150px;
+}
+.cakes .cake .strawberry-milk-cake {
+  width: 170px;
+  height: 100px;
+}
+.cakes .cake .strawberry-chocolate-cake {
+  width: 150px;
+  height: 130px;
+}
+.cakes .cake .chocolate {
+  width: 150px;
+  height: 150px;
+}
+.cakes .cake .macha-cake {
+  width: 150px;
+  height: 150px;
 }
 
 .sandwichs {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 25vh;
-  flex-wrap: wrap;
+  margin-bottom: 15vh;
+}
+.sandwichs .sandwich {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sandwichs .sandwich .ham-sandwich {
+  width: 150px;
+  height: 130px;
+}
+.sandwichs .sandwich .salad-sandwich {
+  width: 150px;
+  height: 130px;
+}
+.sandwichs .sandwich .tuna-sandwich {
+  width: 150px;
+  height: 130px;
+}
+.sandwichs .sandwich .egg-sandwich {
+  width: 150px;
+  height: 130px;
+}
+.sandwichs .sandwich .pork-sandwich {
+  width: 170px;
+  height: 130px;
 }
 
 .burgers {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 25vh;
+  margin-bottom: 15vh;
+}
+.burgers .burger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.burgers .burger .chicken-burger {
+  width: 150px;
+  height: 150px;
+}
+.burgers .burger .ham-burger {
+  width: 140px;
+  height: 150px;
+}
+.burgers .burger .beef-burger {
+  width: 150px;
+  height: 150px;
+}
+.burgers .burger .chicken-pork-burger {
+  width: 170px;
+  height: 150px;
 }
 
-.drinks {
+.cold {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 25vh;
-  flex-wrap: wrap;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+
+.hot {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .drink {
-  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
-
-.drink img {
-  width: 150px;
-  height: 250px;
+.drink .hot-latte {
+  width: 120px;
+  height: 110px;
 }
-
+.drink .americano {
+  width: 100px;
+  height: 110px;
+}
+.drink .honey-lemon {
+  width: 100px;
+  height: 110px;
+}
+.drink .orange {
+  width: 110px;
+  height: 110px;
+}
+.drink .macha {
+  width: 130px;
+  height: 170px;
+}
 .drink .chocolate {
-  width: 250px;
-  height: 290px;
+  width: 170px;
+  height: 170px;
+}
+.drink .milk-tea {
+  width: 100px;
+  height: 170px;
+}
+.drink .ice-latte {
+  width: 100px;
+  height: 170px;
+}
+.drink .macha-cream {
+  width: 100px;
+  height: 170px;
 }
 
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  row-gap: 4vh;
-  background-color: peachpuff;
-  padding-bottom: 6vh;
-}
-
-.logo img {
-  border-radius: 100px;
-  margin-top: 6vh;
-}
-
-ul {
-  list-style-type: none;
+button {
+  padding: 5px;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  border-radius: 15vh;
+  border: none;
+  background-color: orange;
+  color: rgb(61, 6, 37);
   display: flex;
 }
 
-ul li a {
-  text-decoration: none;
-  color: rgb(54, 53, 54);
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-}
-
-footer {
-  background-color: #E89EA2;
-}
-footer .footer {
-  margin-left: 10vh;
-  margin-right: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
-}
-footer .footer-L {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  row-gap: 3vh;
-  margin-bottom: 10vh;
-  padding-top: 5vh;
-}
-footer .footer-L h2 {
-  color: #CD7415;
-  font-size: xx-large;
-}
-footer .footer-L img {
-  margin-top: 3vh;
-  height: 20vh;
-  border-radius: 50vh;
-}
-footer .footer-C {
-  display: flex;
-  flex-direction: column;
-  row-gap: 3vh;
-}
-footer .footer-C h2 {
-  margin-bottom: 1vh;
-}
-footer .footer-C p {
-  color: white;
-  margin-bottom: 9vh;
-}
-footer .footer-R {
-  display: flex;
-  flex-direction: column;
-}
-footer .footer-R h2 {
-  margin-bottom: 4vh;
-}
-footer .footer-R p {
-  color: white;
-  margin-bottom: 14vh;
-}
-footer .icon {
-  display: flex;
-  justify-content: end;
-  -moz-column-gap: 4vh;
-       column-gap: 4vh;
-  font-size: xx-large;
-  margin-right: 8vh;
-}
-footer .icon .you-tube {
-  margin: 2vh 0;
-}
-footer .icon .facebook {
-  margin: 2vh 0;
-}
-footer .icon .twinter {
-  margin: 2vh 0;
-}
-footer .icon .instargram {
-  color: rgb(218, 8, 8);
-  margin: 2vh 0;
+button:hover {
+  background-color: hsl(42, 70%, 13%);
+  color: rgb(2, 0, 1);
 }/*# sourceMappingURL=style-product.css.map */

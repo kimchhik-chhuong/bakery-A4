@@ -1,0 +1,33 @@
+.croissants{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10vh;
+    .croissant{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .cheese-croissant{
+            width: 170px;
+            height: 130px;
+        }
+        .welnat-croissant{
+            width: 170px;
+            height: 100px;
+        }
+        .chocolate-croissant{
+            width: 150px;
+            height: 120px;
+        }
+        .milk-croissant{
+            width: 150px;
+            height: 100px;
+        }
+        
+    }
+}
+
+
+
+

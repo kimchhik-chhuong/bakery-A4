@@ -1,0 +1,36 @@
+.cakes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15vh;
+    flex-wrap: wrap;
+    .cake{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .vanilla-cake{
+            width: 150px;
+            height: 150px;
+        }
+        
+        .strawberry-milk-cake{
+            width: 170px;
+            height: 100px;
+        }
+        .strawberry-chocolate-cake{
+            width: 150px;
+            height: 130px;
+        }
+        .chocolate{
+            width: 150px;
+            height: 150px;
+        }
+        .macha-cake{
+            width: 150px;
+            height: 150px;
+        }
+        
+    }
+}
+
