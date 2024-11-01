@@ -31,6 +31,7 @@ footer{
         row-gap: 3vh;
         h2{
             margin-bottom: 1vh;
+            color: $color-footer-C-R;
         }
         .p{
             color: $color-white;
@@ -44,10 +45,16 @@ footer{
         flex-direction: column;
         h2{
             margin-bottom: 4vh;
+            color: $color-footer-C-R;
         }
-        p{
+        .number{
             color: $color-white;
-            margin-bottom: 14vh;
+            margin-bottom: 8vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            row-gap: 6vh;
         }
     }
     .icon{
