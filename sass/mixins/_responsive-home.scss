@@ -1,4 +1,4 @@
-@media (min-width:1024px){
+@media (max-width:1024px){
     header{
         @include font;
         @include text-centered;

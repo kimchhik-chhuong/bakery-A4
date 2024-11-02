@@ -1,43 +1,42 @@
-@import "_group-mixins";
+
 *{
     margin: 0;
     padding: 0;
-    @include font;
+    font-family: sans-serif
 }
-@import "_group-mixins";
-@import "_group-mixins";
-header{
-    @include font;
-    @include text-centered;
-    flex-direction: column;
-    row-gap: 4vh;
-    background:$bg-nav;
-    padding-bottom: 6vh;
-    .img{
-        border-radius: 100px;
-        margin-top: 3vh;
-    }
-    ul{
-        list-style-type: none;
-        display: flex;
-        a{
-            justify-content: center;
-            align-items: center;
-            margin: 20px;
-            color:$color-white;
-            text-decoration: none;
-        }
-        li a{
-            padding: 8px;
-            border-radius: 7px;
-            transition: all .3s ease;
-        }
-        li a:hover,
-        li a.active{
-            background: #cb5359 ;
-        }      
-    }
-}
+@import"component-home/header";
+// header{
+//     @include font;
+//     @include text-centered;
+//     flex-direction: column;
+//     row-gap: 4vh;
+//     background:$bg-nav;
+//     padding-bottom: 6vh;
+//     .img{
+//         border-radius: 100px;
+//         margin-top: 3vh;
+//     }
+//     ul{
+//         list-style-type: none;
+//         display: flex;
+//         a{
+//             justify-content: center;
+//             align-items: center;
+//             margin: 20px;
+//             color:$color-white;
+//             text-decoration: none;
+//         }
+//         li a{
+//             padding: 8px;
+//             border-radius: 7px;
+//             transition: all .3s ease;
+//         }
+//         li a:hover,
+//         li a.active{
+//             background: #cb5359 ;
+//         }      
+//     }
+// }
 main{
     background-image: url(../images/background.png);
     height: 100vh;
@@ -234,11 +233,12 @@ span:hover{
 .card-8:hover{
     transform: translateY(-10px);
 }
-@import "_group-mixins";
 footer{
     background:$bg-nav;
     .footer{
-        @include text-centered;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-left: 10vh;
         margin-right: 10vh;
         justify-content: space-between;
