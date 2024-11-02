@@ -1,0 +1,314 @@
+@import "_group-mixins";
+*{
+    margin: 0;
+    padding: 0;
+    @include font;
+}
+@import "_group-mixins";
+@import "_group-mixins";
+header{
+    @include font;
+    @include text-centered;
+    flex-direction: column;
+    row-gap: 4vh;
+    background:$bg-nav;
+    padding-bottom: 6vh;
+    .img{
+        border-radius: 100px;
+        margin-top: 3vh;
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        a{
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            color:$color-white;
+            text-decoration: none;
+        }
+        li a{
+            padding: 8px;
+            border-radius: 7px;
+            transition: all .3s ease;
+        }
+        li a:hover,
+        li a.active{
+            background: #cb5359 ;
+        }      
+    }
+}
+main{
+    background-image: url(../images/background.png);
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    color: $color;
+    font-size: 100px;
+    margin-right: 90vh;
+    padding-top: 30vh;
+}
+main p{
+    font-size: 5vh;
+    color:$color-white;
+    padding: 1vh 5vh;
+    background-color: $col;
+    margin: 8vh;
+    margin-top: 17vh;
+    margin-right: 187vh;
+    border-radius: 50vh;
+    border: none;
+}
+h2{
+    text-align: center;
+    margin-top: 10vh;
+    color:$col;
+}
+table, th, td{
+    margin: auto;
+    border: 4px solid $color-white;
+    border-collapse: collapse;
+    padding: 20px;
+}
+table{
+    margin-top: 20px;
+    width: 90%;
+}
+thead, th{
+    color:$color-white;
+    background-color:$bg-nav;
+}
+thead, th:hover{
+    background-color: lightblue;
+}
+tbody{
+    background-color:$bg-col;
+}
+.group-img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+}
+td, p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+span{
+    margin: 20px;
+    color:$color-white;
+    background:$col;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 35px;
+}
+span:hover{
+    background-color: $col-red;
+}
+.pri{
+    color: $col-red;
+}
+.menu, h2{
+    color:$col;
+    text-align: center;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 65px;
+}
+
+.card-1{
+    background:$bg-col;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    box-shadow: rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px, rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px;
+    img{
+        margin-top: 30px;
+        width: 50%;
+    }
+}
+.card-1:hover{
+    transform: translateY(-10px);
+}
+.card-2{
+    background:$bg-col;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    box-shadow: rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px, rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px;
+    img{
+        margin-top: 30px;
+        width: 65%;
+    }
+}
+.card-2:hover{
+    transform: translateY(-10px);
+}
+.card-3{
+    background: $bg-col;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    box-shadow: rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px, rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px;
+    img{
+        margin-top: 30px;
+        width: 60%;
+    }
+}
+.card-3:hover{
+    transform: translateY(-10px);
+}
+.card-4{
+    background: $bg-col;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    box-shadow: rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px, rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px;
+    img{
+        margin-top: 30px;
+        width: 50%;
+    }
+}
+.card-4:hover{
+    transform: translateY(-10px);
+}
+.card-5{
+    background: $bg-col;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    box-shadow: rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px, rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px;
+    img{
+        margin-top: 30px;
+        width: 60%;
+    }
+}
+.card-5:hover{
+    transform: translateY(-10px);
+}
+.card-6{
+    background:$bg-col;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    box-shadow: rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px, rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px;
+    img{
+        margin-top: 30px;
+        width: 60%;
+    }
+}
+.card-6:hover{
+    transform: translateY(-10px);
+}
+.card-7{
+    background:$bg-col;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    box-shadow: rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px, rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px;
+    img{
+        margin-top: 30px;
+        width: 33%;
+    }
+}
+.card-7:hover{
+    transform: translateY(-10px);
+}
+.card-8{
+    background: $bg-col;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    box-shadow: rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px, rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px;
+    img{
+        margin-top: 30px;
+        width: 60%;
+    }
+}
+.card-8:hover{
+    transform: translateY(-10px);
+}
+@import "_group-mixins";
+footer{
+    background:$bg-nav;
+    .footer{
+        @include text-centered;
+        margin-left: 10vh;
+        margin-right: 10vh;
+        justify-content: space-between;
+    }
+    .footer-1{
+        @include text-centered;
+        flex-direction: column;
+        row-gap: 3vh;
+        margin-bottom: 10vh;
+        padding-top: 5vh;
+        h2{
+            color:$color;
+            font-size: xx-large;
+        }
+        img{
+            margin-top: 3vh;
+            height: 20vh;
+            border-radius: 50vh;
+        }
+    }
+    .footer-2{
+        display: flex;
+        flex-direction: column;
+        row-gap: 3vh;
+        h2{
+            margin-bottom: 1vh;
+            color: $bg-black;
+        }
+        .p{
+            color:$color-white;
+            display: flex;
+            flex-direction: column;
+            row-gap: 5vh;
+        }
+    }
+    .footer-3{
+        display: flex;
+        flex-direction: column;
+        h2{
+            margin-bottom: 4vh;
+            color: $bg-black;
+        }
+        .num{
+            color:$color-white;
+            margin-bottom: 8vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            row-gap: 6vh;
+        }
+    }
+    .ic{
+        display: flex;
+        justify-content: end;
+        column-gap: 4vh;
+        font-size: xx-large;
+        margin-right: 8vh;
+        .you-tube{
+            margin: 2vh 0;
+        }
+        .face-book{
+            margin: 2vh 0;
+        }
+        .twin-ter{
+            margin: 2vh 0;
+        }
+        .instar-gram{
+            color: $col-red;
+            margin: 2vh 0;
+        }
+    }
+}
