@@ -10,7 +10,7 @@ nav {
   align-items: center;
   flex-direction: column;
   row-gap: 4vh;
-  background-color: #ffa4a9;
+  background-color: #E89EA2;
   padding-bottom: 6vh;
 }
 nav .logo img {
@@ -36,9 +36,8 @@ nav ul li a {
   border-radius: 7px;
   transition: all 0.3s ease;
 }
-nav ul li a:hover,
-nav ul li a.active {
-  background-color: #cb5359;
+nav ul li a:hover {
+  background-color: lightpink;
 }
 
 header {
@@ -163,7 +162,7 @@ header span a {
 
 footer {
   font-family: sans-serif;
-  background-color: #ffa4a9;
+  background-color: #E89EA2;
 }
 footer .footer {
   margin-left: 10vh;

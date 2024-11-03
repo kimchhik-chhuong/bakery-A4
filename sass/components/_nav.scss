@@ -31,8 +31,7 @@ nav{
             border-radius: 7px;
             transition: all .3s ease;
         }
-        li a:hover,
-        li a.active{
+        li a:hover{
             background-color: $bg-color-link;
         }       
     }
