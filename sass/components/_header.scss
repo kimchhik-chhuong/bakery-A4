@@ -1,8 +1,11 @@
+@import"variable";
 @import"group-mixins";
 header{
     @include font;
-    height: 120vh;
+    height: 100vh;
     background-image: $bg-im-header;
+    background-size: cover;
+    background-repeat: no-repeat;
     @include text-centered;
     flex-direction: column;
     justify-content: space-around;
@@ -14,7 +17,6 @@ header{
         margin-right: 60vh;
     }
     span{
-        color: $color-white;
         font-size: 4vh;
         padding: 2vh 8vh;
         background-color: $bg-color-span;
@@ -22,5 +24,9 @@ header{
         margin-left: 20vh;
         border-radius: 50vh;
         border: none;
+        a{
+            color: $color-white;
+            text-decoration: none;
+        }
     }
 }

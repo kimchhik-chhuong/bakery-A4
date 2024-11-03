@@ -1,4 +1,4 @@
-
+@import"variable";
 @import"group-mixins";
 .container{
     @include font;
@@ -33,7 +33,10 @@
         margin-top: 10vh;
         display: flex;
         .para{
+            display: flex;
+            flex-direction: column;
             margin-right: 15vh;
+            row-gap: 10vh;
             p{
                 font-size: x-large;
             }
@@ -41,7 +44,7 @@
         img{
             border-radius: 15px;
             height: 60vh;
-            width: 100vh;
+            width: 85vh;
     
         }
     }
