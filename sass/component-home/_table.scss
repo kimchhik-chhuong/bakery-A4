@@ -12,9 +12,6 @@ thead, th{
     color: white;
     background-color: #E89EA2;
 }
-thead, th:hover{
-    background-color: lightblue;
-}
 tbody{
     background-color: #D9D9D9;
 }
@@ -39,7 +36,8 @@ span{
     border-radius: 35px;
 }
 span:hover{
-    background-color: red;
+    background-color:#E89EA2 ;
+    cursor: pointer;
 }
 .pri{
     color: red;

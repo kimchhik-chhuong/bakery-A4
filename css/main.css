@@ -61,10 +61,6 @@ thead, th {
   background-color: #E89EA2;
 }
 
-thead, th:hover {
-  background-color: lightblue;
-}
-
 tbody {
   background-color: #D9D9D9;
 }
@@ -93,7 +89,8 @@ span {
 }
 
 span:hover {
-  background-color: red;
+  background-color: #E89EA2;
+  cursor: pointer;
 }
 
 .pri {
@@ -266,7 +263,7 @@ main p {
 
 footer {
   font-family: sans-serif;
-  background-color: lightcoral;
+  background-color: #E89EA2;
 }
 footer .footer {
   margin-left: 10vh;
