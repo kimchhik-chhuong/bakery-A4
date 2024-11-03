@@ -10,7 +10,7 @@ nav {
   align-items: center;
   flex-direction: column;
   row-gap: 4vh;
-  background-color: #ffa4a9;
+  background-color: #E89EA2;
   padding-bottom: 6vh;
 }
 nav .logo img {
@@ -163,7 +163,7 @@ header span a {
 
 footer {
   font-family: sans-serif;
-  background-color: #ffa4a9;
+  background-color: #E89EA2;
 }
 footer .footer {
   margin-left: 10vh;
