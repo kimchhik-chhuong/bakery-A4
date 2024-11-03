@@ -4,253 +4,53 @@
     padding: 0;
     font-family: sans-serif
 }
-@import"component-home/header";
-// header{
-//     @include font;
-//     @include text-centered;
-//     flex-direction: column;
-//     row-gap: 4vh;
-//     background:$bg-nav;
-//     padding-bottom: 6vh;
-//     .img{
-//         border-radius: 100px;
-//         margin-top: 3vh;
-//     }
-//     ul{
-//         list-style-type: none;
-//         display: flex;
-//         a{
-//             justify-content: center;
-//             align-items: center;
-//             margin: 20px;
-//             color:$color-white;
-//             text-decoration: none;
-//         }
-//         li a{
-//             padding: 8px;
-//             border-radius: 7px;
-//             transition: all .3s ease;
-//         }
-//         li a:hover,
-//         li a.active{
-//             background: #cb5359 ;
-//         }      
-//     }
-// }
+@import"component-home/_header";
+@import"component-home/table";
+@import"component-home/footer";
 main{
     background-image: url(../images/background.png);
     height: 100vh;
-}
-h1{
-    text-align: center;
-    color: $color;
-    font-size: 100px;
-    margin-right: 90vh;
-    padding-top: 30vh;
-}
-main p{
-    font-size: 5vh;
-    color:$color-white;
-    padding: 1vh 5vh;
-    background-color: $col;
-    margin: 8vh;
-    margin-top: 17vh;
-    margin-right: 187vh;
-    border-radius: 50vh;
-    border: none;
-}
-h2{
-    text-align: center;
-    margin-top: 10vh;
-    color:$col;
-}
-table, th, td{
-    margin: auto;
-    border: 4px solid $color-white;
-    border-collapse: collapse;
-    padding: 20px;
-}
-table{
-    margin-top: 20px;
-    width: 90%;
-}
-thead, th{
-    color:$color-white;
-    background-color:$bg-nav;
-}
-thead, th:hover{
-    background-color: lightblue;
-}
-tbody{
-    background-color:$bg-col;
-}
-.group-img{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 150px;
-}
-td, p {
-    margin-bottom: 10px;
-    text-align: center;
-}
-span{
-    margin: 20px;
-    color:$color-white;
-    background:$col;
-    padding-left: 5vh;
-    padding-right: 5vh;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border-radius: 35px;
-}
-span:hover{
-    background-color: $col-red;
-}
-.pri{
-    color: $col-red;
-}
-.menu, h2{
-    color:$col;
-    text-align: center;
-}
-.card{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    margin: 65px;
-}
-
-.card-1{
-    background:$bg-col;
-    text-align: center;
-    border-radius: 10px;
-    transition: transform 0.3s;
-    box-shadow: rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px, rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px;
-    img{
-        margin-top: 30px;
-        width: 50%;
+    h1{
+        text-align: center;
+        color: #CD7415;
+        font-size: 100px;
+        margin-right: 68vh;
+        padding-top: 30vh;
     }
-}
-.card-1:hover{
-    transform: translateY(-10px);
-}
-.card-2{
-    background:$bg-col;
-    text-align: center;
-    border-radius: 10px;
-    transition: transform 0.3s;
-    box-shadow: rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px, rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px;
-    img{
-        margin-top: 30px;
-        width: 65%;
+    p{
+        font-size: 5vh;
+        color: white;
+        padding: 1vh 5vh;
+        background-color: #FF9F19;
+        margin: 8vh;
+        margin-top: 17vh;
+        margin-left: 13vh;
+        margin-right: 180vh;
+        border-radius: 50vh;
+        border: none;
     }
-}
-.card-2:hover{
-    transform: translateY(-10px);
-}
-.card-3{
-    background: $bg-col;
-    text-align: center;
-    border-radius: 10px;
-    transition: transform 0.3s;
-    box-shadow: rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px, rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px;
-    img{
-        margin-top: 30px;
-        width: 60%;
-    }
-}
-.card-3:hover{
-    transform: translateY(-10px);
-}
-.card-4{
-    background: $bg-col;
-    text-align: center;
-    border-radius: 10px;
-    transition: transform 0.3s;
-    box-shadow: rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px, rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px;
-    img{
-        margin-top: 30px;
-        width: 50%;
-    }
-}
-.card-4:hover{
-    transform: translateY(-10px);
-}
-.card-5{
-    background: $bg-col;
-    text-align: center;
-    border-radius: 10px;
-    transition: transform 0.3s;
-    box-shadow: rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px, rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px;
-    img{
-        margin-top: 30px;
-        width: 60%;
-    }
-}
-.card-5:hover{
-    transform: translateY(-10px);
-}
-.card-6{
-    background:$bg-col;
-    text-align: center;
-    border-radius: 10px;
-    transition: transform 0.3s;
-    box-shadow: rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px, rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px;
-    img{
-        margin-top: 30px;
-        width: 60%;
-    }
-}
-.card-6:hover{
-    transform: translateY(-10px);
-}
-.card-7{
-    background:$bg-col;
-    text-align: center;
-    border-radius: 10px;
-    transition: transform 0.3s;
-    box-shadow: rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px, rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px;
-    img{
-        margin-top: 30px;
-        width: 33%;
-    }
-}
-.card-7:hover{
-    transform: translateY(-10px);
-}
-.card-8{
-    background: $bg-col;
-    text-align: center;
-    border-radius: 10px;
-    transition: transform 0.3s;
-    box-shadow: rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px, rgba(6, 6, 6, 0.15) 1.95px 1.95px 2.6px;
-    img{
-        margin-top: 30px;
-        width: 60%;
-    }
-}
-.card-8:hover{
-    transform: translateY(-10px);
 }
 footer{
-    background:$bg-nav;
+    font-family: sans-serif;
+    background-color: lightcoral;
     .footer{
+        margin-left: 10vh;
+        margin-right: 10vh;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 10vh;
-        margin-right: 10vh;
         justify-content: space-between;
     }
-    .footer-1{
-        @include text-centered;
+    .footer-L{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         row-gap: 3vh;
         margin-bottom: 10vh;
-        padding-top: 5vh;
+        padding-top: 3vh;
         h2{
-            color:$color;
+            color: #CD7415;
             font-size: xx-large;
         }
         img{
@@ -259,39 +59,38 @@ footer{
             border-radius: 50vh;
         }
     }
-    .footer-2{
+    .footer-C{
         display: flex;
         flex-direction: column;
-        row-gap: 3vh;
+        row-gap: 5vh;
         h2{
-            margin-bottom: 1vh;
-            color: $bg-black;
+            text-align: start;
+            margin-top: 5vh;
+            color: #333;
         }
-        .p{
-            color:$color-white;
+        #p{
             display: flex;
+            justify-content: flex-start;
+            align-items: start;
             flex-direction: column;
-            row-gap: 5vh;
+            row-gap: 3vh;
+            color: white;
         }
     }
-    .footer-3{
+    .footer-R{
         display: flex;
         flex-direction: column;
+        margin-bottom: 10vh;
+        row-gap: 5vh;
         h2{
-            margin-bottom: 4vh;
-            color: $bg-black;
+            color: #333;
         }
-        .num{
-            color:$color-white;
-            margin-bottom: 8vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            row-gap: 6vh;
+        p{
+            
+            color: white;
         }
     }
-    .ic{
+    .icon{
         display: flex;
         justify-content: end;
         column-gap: 4vh;
@@ -300,15 +99,17 @@ footer{
         .you-tube{
             margin: 2vh 0;
         }
-        .face-book{
+        .facebook{
             margin: 2vh 0;
         }
-        .twin-ter{
+        .twinter{
             margin: 2vh 0;
         }
-        .instar-gram{
-            color: $col-red;
+        .instargram{
+            color: rgb(218, 8, 8);
             margin: 2vh 0;
         }
     }
 }
+    
+
