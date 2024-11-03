@@ -1,0 +1,259 @@
+// Responsive Laptop 1024px
+// @media(max-width:1024px) and (min-width:767){
+    
+// }
+
+
+
+
+
+
+
+
+
+
+
+// Responsive template 768px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Responsive mobile 400px
+@media(min-width:380px) and (max-width:768px){
+    nav{
+        .logo img{
+            border-radius: 100px;
+            margin-top: 3vh;
+        }
+        h2{
+          color: #333;
+        }
+        ul{
+            list-style-type: none;
+            display: flex;
+            a{
+                justify-content: center;
+                align-items: center;
+                margin: 10px;
+                color: $color-white;
+                text-decoration: none;
+            }
+            li a{
+                padding: 0.5px;
+                border-radius: 7px;
+                transition: all .3s ease;
+            }
+            
+        }
+      }
+      header{
+        font-family: sans-serif;
+        height: 30vh;
+        width: 60vh;
+        background-image: url(../images/background.png);
+        background-size: cover;
+        h1{
+            text-align: center;
+            color: #CD7415;
+            font-size: 30px;
+            margin-top: 5vh;
+            margin-right: 20vh;
+        }
+      }
+      .head{
+        text-align: center;
+        padding: 10px;
+        background-color: rgb(249, 232, 234);
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    }
+    .container-contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .find-us{
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+          .card{
+            background-color: $bg-cf;
+            border-radius: 20px;
+            height: 40vh;
+            width: 50vh;
+            box-shadow: $box-sd;
+            transition: transform 0.3s;
+        }
+        .card:hover{
+          transform: translateY(-10px);
+        }
+      }
+      }
+    
+      .form-container{
+        flex-direction: column;
+        background-color: $bg-cf;
+        border-radius: 20px;
+        width: 42vh;
+        height: 60vh;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        transition: transform 0.3s;
+        .form-title{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 11%;
+          background-color: gray;
+          color: $color-white;
+          width: 30vh;
+          height: 10vh;
+          border-radius: 10px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        }
+        .input-group{
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+          .input{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+          }
+        }
+      }
+    
+      .form-container{
+        display: flex;
+        justify-content: space-between;
+        // margin: 2%;
+        margin-left: 6%;
+        flex-direction: column;
+      }
+    
+      .form-container:hover{
+        transform: translateY(-10px);
+      }
+    
+    
+      #para:hover{
+        text-decoration: underline;
+      }
+    
+      
+      .send{
+        background-color: #0a90c5;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+      }
+      .cancel{
+        background-color: green;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+      }
+      .button{
+        width: 60%;
+        display: flex;
+        gap: 10%;
+        margin-left: 21%;
+
+      }
+    
+      button:hover{
+        background-color: greenyellow;
+      }
+      input, textarea{
+        width: 100%;
+        padding: 10px;
+        gap: 4%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .map{
+        background-image: url(../images/map.png);
+        height: 50vh;
+      }
+      footer{
+        font-family: sans-serif;
+        background-color: $bg-nf;
+        .footer{
+            // margin-left: 10vh;
+            // margin-right: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .footer-L{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            row-gap: 3vh;
+            margin-bottom: 10vh;
+            padding-top: 3vh;
+            h2{
+                color: #CD7415;
+                font-size: xx-large;
+            }
+            img{
+                margin-top: 3vh;
+                height: 20vh;
+                border-radius: 50vh;
+            }
+        }
+        .footer-C{
+            display: flex;
+            flex-direction: column;
+            row-gap: 3vh;
+            h2{
+                margin-bottom: 1vh;
+                color: #333;
+            }
+            .p{
+                color: $color-white;
+                display: flex;
+                flex-direction: column;
+                row-gap: 5vh;
+            }
+        }
+        .footer-R{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15vh;
+            h2{
+                margin-bottom: vh;
+                color: #333;
+            }
+            .number{
+                color: $color-white;
+            }
+        }
+        .icon{
+            display: flex;
+            justify-content: end;
+            column-gap: 4vh;
+            font-size: xx-large;
+            margin-right: 8vh;
+            .you-tube{
+                margin: 2vh 0;
+            }
+            .facebook{
+                margin: 2vh 0;
+            }
+            .twitter{
+                margin: 2vh 0;
+            }
+            .instagram{
+                color: rgb(218, 8, 8);
+                margin: 2vh 0;
+            }
+        }
+      }
+
+}

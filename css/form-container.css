@@ -1,0 +1,33 @@
+.form-container {
+  margin-right: 4%;
+  padding: 20px;
+  flex-direction: column;
+  background-color: #E89EA2;
+  border-radius: 20px;
+  width: 140vh;
+  height: 80vh;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  transition: transform 0.3s;
+}
+.form-container .form-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+  background-color: gray;
+  color: white;
+  width: 30vh;
+  height: 10vh;
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.form-container .input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form-container .input-group .input {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}/*# sourceMappingURL=form-container.css.map */

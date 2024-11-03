@@ -1,22 +1,25 @@
-@import"variable";
-@import"group-mixins";
+
 footer{
-    @include font;
-    background-color:$bg-nav;
+    font-family: sans-serif;
+    background-color: $bg-nf;
     .footer{
         margin-left: 10vh;
         margin-right: 10vh;
-        @include text-centered;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         justify-content: space-between;
     }
     .footer-L{
-        @include text-centered;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         row-gap: 3vh;
         margin-bottom: 10vh;
-        padding-top: 5vh;
+        padding-top: 3vh;
         h2{
-            color: $color;
+            color: #CD7415;
             font-size: xx-large;
         }
         img{
@@ -31,7 +34,7 @@ footer{
         row-gap: 3vh;
         h2{
             margin-bottom: 1vh;
-            color: $color-footer-C-R;
+            color: #333;
         }
         .p{
             color: $color-white;
@@ -43,14 +46,13 @@ footer{
     .footer-R{
         display: flex;
         flex-direction: column;
+        margin-bottom: 15vh;
         h2{
-            margin-bottom: 4vh;
-            color: $color-footer-C-R;
+            margin-bottom: vh;
+            color: #333;
         }
-        p{
+        .number{
             color: $color-white;
-            margin-bottom: 15vh;
-            row-gap: 6vh;
         }
     }
     .icon{
@@ -65,12 +67,12 @@ footer{
         .facebook{
             margin: 2vh 0;
         }
-        .twinter{
+        .twitter{
             margin: 2vh 0;
         }
-        .instargram{
+        .instagram{
             color: rgb(218, 8, 8);
             margin: 2vh 0;
         }
     }
-}
+  }
