@@ -1,0 +1,115 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+@import"component-home/_header";
+@import"component-home/table";
+@import"component-home/footer";
+main{
+    background-image: url(../images/background.png);
+    height: 100vh;
+    h1{
+        text-align: center;
+        color: #CD7415;
+        font-size: 100px;
+        margin-right: 68vh;
+        padding-top: 30vh;
+    }
+    p{
+        font-size: 5vh;
+        color: white;
+        padding: 1vh 5vh;
+        background-color: #FF9F19;
+        margin: 8vh;
+        margin-top: 17vh;
+        margin-left: 13vh;
+        margin-right: 180vh;
+        border-radius: 50vh;
+        border: none;
+    }
+}
+footer{
+    font-family: sans-serif;
+    background-color: #E89EA2;
+    .footer{
+        margin-left: 10vh;
+        margin-right: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer-L{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 3vh;
+        margin-bottom: 10vh;
+        padding-top: 3vh;
+        h2{
+            color: #CD7415;
+            font-size: xx-large;
+        }
+        img{
+            margin-top: 3vh;
+            height: 20vh;
+            border-radius: 50vh;
+        }
+    }
+    .footer-C{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5vh;
+        h2{
+            text-align: start;
+            margin-top: 5vh;
+            color: #333;
+        }
+        #p{
+            display: flex;
+            justify-content: flex-start;
+            align-items: start;
+            flex-direction: column;
+            row-gap: 3vh;
+            color: white;
+        }
+    }
+    .footer-R{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10vh;
+        row-gap: 5vh;
+        h2{
+            color: #333;
+        }
+        p{
+            
+            color: white;
+        }
+    }
+    .icon{
+        display: flex;
+        justify-content: end;
+        column-gap: 4vh;
+        font-size: xx-large;
+        margin-right: 8vh;
+        .you-tube{
+            margin: 2vh 0;
+        }
+        .facebook{
+            margin: 2vh 0;
+        }
+        .twinter{
+            margin: 2vh 0;
+        }
+        .instargram{
+            color: rgb(218, 8, 8);
+            margin: 2vh 0;
+        }
+    }
+}
+    
+
