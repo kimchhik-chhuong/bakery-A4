@@ -1,14 +1,18 @@
-button{
+button {
     padding: 5px;
     padding-left: 4vh;
     padding-right: 4vh;
     border-radius: 15vh;
     border: none;
-    background-color: orange;
+    background-color:rgb(255, 168, 68);
     color: rgb(61, 6, 37);
-    display: flex;   
+    display: flex;
 }
-button:hover{
-    background-color: hsl(42, 70%, 13%);
+
+button:hover {
+    background-color: rgb(255, 255, 255);
     color: rgb(2, 0, 1);
+    border: 1px solid rgb(187, 182, 182);
+    transition: 0.3s;
+    cursor: pointer;
 }

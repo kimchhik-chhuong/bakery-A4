@@ -1,46 +1,15 @@
-.container {
-  background-color: rgb(248, 238, 236);
-  border-top: 1px solid lightcoral;
-}
-
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  margin-bottom: 5vh;
-  margin-top: 5vh;
-  color: rgb(255, 149, 0);
-  font-weight: 900;
-  text-shadow: 0.5px 0.5px 1px rgb(41, 20, 6);
-}
-
-h2 {
-  font-family: Arial;
-  text-align: center;
-  margin: 20px 0px 20px 0px;
-  color: rgb(47, 44, 44);
-}
-
-p {
-  font-family: sans-serif;
-  text-align: center;
-}
-
-img {
-  filter: drop-shadow(0.5px 1.5px 1px rgb(186, 185, 185));
-}
-
 nav {
   font-family: sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  row-gap: 4vh;
-  background-color: #ffd19c;
+  row-gap: 1vh;
+  background: rgb(248, 183, 151);
   padding-bottom: 6vh;
 }
 nav .logo img {
-  border-radius: 100px;
+  border-radius: 50vh;
   margin-top: 3vh;
 }
 nav ul {
@@ -59,9 +28,12 @@ nav ul li a {
   border-radius: 7px;
   transition: all 0.3s ease;
 }
-nav ul li a:hover,
 nav ul li a.active {
-  background-color: rgb(253, 168, 182);
+  -webkit-text-decoration: line;
+          text-decoration: line;
+}
+nav ul li a:hover {
+  background: rgb(245, 150, 15);
 }
 
 .breads {
@@ -77,7 +49,7 @@ nav ul li a.active {
   flex-direction: column;
 }
 .breads .bread .sesame-bread {
-  width: 150px;
+  width: 200px;
   height: 100px;
 }
 .breads .bread .milk-bread {
@@ -107,17 +79,17 @@ nav ul li a.active {
 }
 .croissants .croissant .cheese-croissant {
   width: 170px;
-  height: 130px;
+  height: 100px;
 }
 .croissants .croissant .welnat-croissant {
   width: 170px;
   height: 100px;
 }
-.croissants .croissant .chocolate-croissant {
-  width: 150px;
-  height: 120px;
-}
 .croissants .croissant .milk-croissant {
+  width: 150px;
+  height: 100px;
+}
+.croissants .croissant .chocolate-croissant {
   width: 150px;
   height: 100px;
 }
@@ -126,7 +98,7 @@ nav ul li a.active {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 15vh;
+  margin-bottom: 10vh;
 }
 .loaves .loaf {
   display: flex;
@@ -153,9 +125,10 @@ nav ul li a.active {
 
 .cakes {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 15vh;
+  margin-bottom: 10vh;
+  margin-left: 40px;
   flex-wrap: wrap;
 }
 .cakes .cake {
@@ -170,11 +143,11 @@ nav ul li a.active {
 }
 .cakes .cake .strawberry-milk-cake {
   width: 170px;
-  height: 100px;
+  height: 150px;
 }
 .cakes .cake .strawberry-chocolate-cake {
   width: 150px;
-  height: 130px;
+  height: 150px;
 }
 .cakes .cake .chocolate {
   width: 150px;
@@ -189,7 +162,7 @@ nav ul li a.active {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 15vh;
+  margin-bottom: 10vh;
 }
 .sandwichs .sandwich {
   display: flex;
@@ -199,30 +172,30 @@ nav ul li a.active {
 }
 .sandwichs .sandwich .ham-sandwich {
   width: 150px;
-  height: 130px;
+  height: 150px;
 }
 .sandwichs .sandwich .salad-sandwich {
   width: 150px;
-  height: 130px;
+  height: 150px;
 }
 .sandwichs .sandwich .tuna-sandwich {
   width: 150px;
-  height: 130px;
+  height: 150px;
 }
 .sandwichs .sandwich .egg-sandwich {
   width: 150px;
-  height: 130px;
+  height: 150px;
 }
 .sandwichs .sandwich .pork-sandwich {
   width: 170px;
-  height: 130px;
+  height: 150px;
 }
 
 .burgers {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 15vh;
+  margin-bottom: 10vh;
 }
 .burgers .burger {
   display: flex;
@@ -251,8 +224,7 @@ nav ul li a.active {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 15vh;
-  margin-bottom: 15vh;
+  margin-bottom: 5vh;
 }
 
 .hot {
@@ -266,7 +238,7 @@ nav ul li a.active {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 10vh;
 }
 .drink .hot-latte {
   width: 120px;
@@ -305,18 +277,176 @@ nav ul li a.active {
   height: 170px;
 }
 
+footer {
+  font-family: sans-serif;
+  background-color: #f2b8a2;
+}
+footer .footer {
+  margin-left: 10vh;
+  margin-right: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footer-L {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 3vh;
+  margin-bottom: 10vh;
+  padding-top: 3vh;
+}
+footer .footer-L h2 {
+  color: #CD7415;
+  font-size: xx-large;
+}
+footer .footer-L img {
+  margin-top: 3vh;
+  height: 20vh;
+  border-radius: 50vh;
+}
+footer .footer-C {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-C h2 {
+  text-align: start;
+  margin-top: 1vh;
+  color: #333;
+}
+footer .footer-C .p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  flex-direction: column;
+  color: white;
+}
+footer .footer-R {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 19vh;
+}
+footer .footer-R h2 {
+  color: #333;
+}
+footer .footer-R p {
+  color: white;
+}
+footer .icon {
+  display: flex;
+  justify-content: end;
+  -moz-column-gap: 4vh;
+       column-gap: 4vh;
+  font-size: xx-large;
+  margin-right: 8vh;
+}
+footer .icon .you-tube {
+  margin: 2vh 0;
+}
+footer .icon .facebook {
+  margin: 2vh 0;
+}
+footer .icon .twinter {
+  margin: 2vh 0;
+}
+footer .icon .instargram {
+  color: rgb(218, 8, 8);
+  margin: 2vh 0;
+}
+
 button {
   padding: 5px;
   padding-left: 4vh;
   padding-right: 4vh;
   border-radius: 15vh;
   border: none;
-  background-color: orange;
+  background-color: rgb(255, 168, 68);
   color: rgb(61, 6, 37);
   display: flex;
 }
 
 button:hover {
-  background-color: hsl(42, 70%, 13%);
+  background-color: rgb(255, 255, 255);
   color: rgb(2, 0, 1);
+  border: 1px solid rgb(187, 182, 182);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .breads,
+  .croissants,
+  .loaves,
+  .sandwichs,
+  .burgers,
+  .cakes,
+  .cold,
+  .hot {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 400px) {
+  .breads .strawberry-milk-cake,
+  .breads .macha-cake,
+  .croissants .strawberry-milk-cake,
+  .croissants .macha-cake,
+  .loaves .strawberry-milk-cake,
+  .loaves .macha-cake,
+  .sandwichs .strawberry-milk-cake,
+  .sandwichs .macha-cake,
+  .burgers .strawberry-milk-cake,
+  .burgers .macha-cake,
+  .cakes .strawberry-milk-cake,
+  .cakes .macha-cake {
+    margin-right: 14px;
+  }
+  button {
+    margin-bottom: 20px;
+  }
+  .cold .macha {
+    margin-left: 25px;
+  }
+  .hot {
+    flex-wrap: wrap;
+    margin-left: 25px;
+  }
+}
+.container {
+  background-color: rgb(255, 228, 204);
+  border-top: 0.01px solid rgb(248, 238, 236);
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+  color: rgb(255, 149, 0);
+  font-weight: bolder;
+  text-shadow: 0.5px 0.5px 1px rgb(86, 38, 5);
+}
+
+h2 {
+  font-family: Arial;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+  color: rgb(47, 44, 44);
+}
+
+.price {
+  font-family: sans-serif;
+  text-align: center;
+  color: rgb(141, 136, 133);
+}
+
+p {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+img {
+  filter: drop-shadow(0.5px 1.5px 1px rgb(186, 185, 185));
 }/*# sourceMappingURL=style-product.css.map */

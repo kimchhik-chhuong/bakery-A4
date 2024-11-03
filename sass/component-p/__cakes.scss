@@ -1,36 +1,42 @@
-.cakes{
+@import"./__variable";
+.cakes {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 15vh;
+    margin-bottom: 10vh;
+    margin-left: 40px;
     flex-wrap: wrap;
-    .cake{
+
+    .cake {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        .vanilla-cake{
+
+        .vanilla-cake {
             width: 150px;
-            height: 150px;
+            height: $hieght-cake;
         }
-        
-        .strawberry-milk-cake{
+
+        .strawberry-milk-cake {
             width: 170px;
-            height: 100px;
+            height: $hieght-cake;
         }
-        .strawberry-chocolate-cake{
-            width: 150px;
-            height: 130px;
+
+        .strawberry-chocolate-cake {
+            width: $width-cake;
+            height: $hieght-cake;
         }
-        .chocolate{
-            width: 150px;
-            height: 150px;
+
+        .chocolate {
+            width: $width-cake;
+            height: $hieght-cake;
         }
-        .macha-cake{
-            width: 150px;
-            height: 150px;
+
+        .macha-cake {
+            width: $width-cake;
+            height: $hieght-cake;
         }
-        
+
     }
 }
-

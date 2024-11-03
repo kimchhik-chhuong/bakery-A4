@@ -1,35 +1,44 @@
-nav{
+nav {
     font-family: sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    row-gap: 4vh;
-    background-color: #ffd19c;
+    row-gap: 1vh;
+    background: rgb(248, 183, 151);
     padding-bottom: 6vh;
-    .logo img{
-        border-radius: 100px;
-        margin-top: 3vh;
+
+    .logo {
+        img {
+            border-radius: 50vh;
+            margin-top: 3vh;
+        }
     }
-    ul{
+
+    ul {
         list-style-type: none;
         display: flex;
-        a{
+
+        a {
             justify-content: center;
             align-items: center;
             margin: 20px;
             color: white;
             text-decoration: none;
         }
-        li a{
+
+        li a {
             padding: 8px;
             border-radius: 7px;
             transition: all .3s ease;
         }
-        li a:hover,
-        li a.active{
-            background-color: rgb(253, 168, 182);
+
+        li a.active {
+            text-decoration: line;
         }
-        
+
+        li a:hover {
+            background: rgb(245, 150, 15);
+        }
     }
-  }
+}

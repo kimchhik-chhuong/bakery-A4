@@ -1,66 +1,4 @@
-// nav{
-//     // @include font;
-//     font-family: sans-serif;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     flex-direction: column;
-//     row-gap: 4vh;
-//     background-color: lightcoral;
-//     padding-bottom: 6vh;
-//     .logo img{
-//         border-radius: 100px;
-//         margin-top: 3vh;
-//     }
-//     ul{
-//         list-style-type: none;
-//         display: flex;
-//         a{
-//             justify-content: center;
-//             align-items: center;
-//             margin: 20px;
-//             color: white;
-//         }
-//         li a{
-//             padding: 8px;
-//             border-radius: 7px;
-//             transition: all .3s ease;
-//         }
-//         li a:hover,
-//         li a.active{
-//             background-color: lightcoral;
-//         }
-
-        
-//     }
-// }
-.container{
-    background-color: rgb(248, 238, 236);
-    border-top: 1px solid lightcoral;
-}
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin-bottom: 5vh;
-    margin-top: 5vh;
-    color: rgb(255, 149, 0);
-    font-weight: 900;
-    text-shadow: 0.5px 0.5px 1px rgb(41, 20, 6) ;
-}
-h2{
-    font-family: Arial;
-    text-align: center;
-    margin: 20px 0px 20px 0px;
-    color: rgb(47, 44, 44);
-}
-p{
-    font-family: sans-serif;
-    text-align: center; 
-
-}
-img{
-    filter: drop-shadow(0.5px 1.5px 1px rgb(186, 185, 185));
-}
+@import"component-p/__variable";
 @import"component-p/__nav";
 @import"component-p/__breads";
 @import"component-p/__croissants";
@@ -71,3 +9,39 @@ img{
 @import"component-p/__drinks";
 @import"component-p/__footer";
 @import"component-p/__button";
+@import"component-p/__responsive";
+
+.container{
+    background-color: rgb(255, 228, 204);
+    border-top: 0.01px solid rgb(248, 238, 236);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    color: rgb(255, 149, 0);
+    font-weight: bolder;
+    text-shadow: 0.5px 0.5px 1px rgb(86, 38, 5) ;
+}
+h2{
+    font-family: Arial;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    color: rgb(47, 44, 44);
+}
+.price{
+    font-family: sans-serif;
+    text-align: center; 
+    color: rgb(141, 136, 133);
+
+}
+p{
+    font-family: sans-serif;
+    text-align: center; 
+
+}
+img{
+    filter: drop-shadow(0.5px 1.5px 1px rgb(186, 185, 185));
+}
+

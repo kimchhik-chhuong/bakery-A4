@@ -1,3 +1,4 @@
+@import"./__variable";
 .breads{
     display: flex;
     justify-content: space-evenly;
@@ -9,21 +10,20 @@
         align-items: center;
         flex-direction: column;
         .sesame-bread{
-            width: 150px;
-            height: 100px;
+            width: 200px;
+            height: $hieght-bread;
         }
         .milk-bread{
-            width: 150px;
-            height: 100px;
+            width: $width-bread;
+            height: $hieght-bread;
         }
         .chocolate-bread{
-            width: 150px;
-            height: 100px;
+            width: $width-bread;
+            height: $hieght-bread;
         }
         .grape-bread{
-            width: 150px;
-            height: 100px;
+            width: $width-bread;
+            height: $hieght-bread;
         }
     }
 }
-

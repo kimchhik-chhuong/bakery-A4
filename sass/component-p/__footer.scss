@@ -1,71 +1,78 @@
-// footer{
-//     @include font;
-//     background-color:$bg-nav;
-//     .footer{
-//         margin-left: 10vh;
-//         margin-right: 10vh;
-//         @include text-centered;
-//         justify-content: space-between;
-//     }
-//     .footer-L{
-//         @include text-centered;
-//         flex-direction: column;
-//         row-gap: 3vh;
-//         margin-bottom: 10vh;
-//         padding-top: 5vh;
-//         h2{
-//             color: $color;
-//             font-size: xx-large;
-//         }
-//         img{
-//             margin-top: 3vh;
-//             height: 20vh;
-//             border-radius: 50vh;
-//         }
-//     }
-//     .footer-C{
-//         display: flex;
-//         flex-direction: column;
-//         row-gap: 3vh;
-//         h2{
-//             margin-bottom: 1vh;
-//         }
-//         .p{
-//             color: $color-white;
-//             display: flex;
-//             flex-direction: column;
-//             row-gap: 5vh;
-//         }
-//     }
-//     .footer-R{
-//         display: flex;
-//         flex-direction: column;
-//         h2{
-//             margin-bottom: 4vh;
-//         }
-//         p{
-//             color: $color-white;
-//             margin-bottom: 14vh;
-//         }
-//     }
-//     .icon{
-//         display: flex;
-//         justify-content: end;
-//         column-gap: 4vh;
-//         font-size: xx-large;
-//         margin-right: 8vh;
-//         .you-tube{
-//             margin: 2vh 0;
-//         }
-//         .facebook{
-//             margin: 2vh 0;
-//         }
-//         .twinter{
-//             margin: 2vh 0;
-//         }
-//         .instargram{
-//             color: rgb(218, 8, 8);
-//             margin: 2vh 0;
-//         }
-//     }
-// }
+footer{
+    font-family: sans-serif;
+    background-color: #f2b8a2;
+    .footer{
+        margin-left: 10vh;
+        margin-right: 10vh;
+        @include center;
+        justify-content: space-between;
+    }
+    .footer-L{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 3vh;
+        margin-bottom: 10vh;
+        padding-top: 3vh;
+        h2{
+            color: #CD7415;
+            font-size: xx-large;
+        }
+        img{
+            margin-top: 3vh;
+            height: 20vh;
+            border-radius: 50vh;
+        }
+    }
+    .footer-C{
+        display: flex;
+        flex-direction: column;
+        // row-gap: 3vh;
+        h2{
+            text-align: start;
+            margin-top: 1vh;
+            color: #333;
+        }
+        .p{
+            display: flex;
+            justify-content: flex-start;
+            align-items: start;
+            flex-direction: column;
+            color: white;
+        }
+    }
+    .footer-R{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 19vh;
+        h2{
+            color: #333;
+        }
+        p{
+            
+            color: white;
+        }
+    }
+    
+    .icon{
+        display: flex;
+        justify-content: end;
+        column-gap: 4vh;
+        font-size: xx-large;
+        margin-right: 8vh;
+        .you-tube{
+            margin: 2vh 0;
+        }
+        .facebook{
+            margin: 2vh 0;
+        }
+        .twinter{
+            margin: 2vh 0;
+        }
+        .instargram{
+            color: rgb(218, 8, 8);
+            margin: 2vh 0;
+        }
+    }
+}

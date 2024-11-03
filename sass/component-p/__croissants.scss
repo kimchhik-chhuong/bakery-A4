@@ -1,3 +1,4 @@
+@import"./__variable";
 .croissants{
     display: flex;
     justify-content: space-evenly;
@@ -10,19 +11,19 @@
         flex-direction: column;
         .cheese-croissant{
             width: 170px;
-            height: 130px;
+            height: $hieght-scoissant;
         }
         .welnat-croissant{
             width: 170px;
-            height: 100px;
-        }
-        .chocolate-croissant{
-            width: 150px;
-            height: 120px;
+            height: $hieght-scoissant;
         }
         .milk-croissant{
             width: 150px;
-            height: 100px;
+            height: $hieght-scoissant;
+        }
+        .chocolate-croissant{
+            width: 150px;
+            height: $hieght-scoissant;
         }
         
     }
