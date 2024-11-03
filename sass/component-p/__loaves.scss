@@ -1,0 +1,31 @@
+@import"./__variable";
+.loaves{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10vh;
+    .loaf{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .milk-loaf{
+            width: $width-loaves;
+            height: $hieght-loaves; 
+        }.grape-loaf{
+            width: $width-loaves;
+            height: $hieght-loaves; 
+        }
+        .chocolate-inside-loaf{
+            width: $width-loaves;
+            height: $hieght-loaves;
+        }
+        .chocolate-loaf{
+            width: $width-loaves;
+            height: $hieght-loaves;
+        }
+        
+    }
+
+}
+

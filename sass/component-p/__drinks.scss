@@ -1,0 +1,54 @@
+@import"./_mixin";
+.cold{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+.hot{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.drink{
+    @include center;
+    flex-direction: column;
+    margin-bottom: 10vh;
+    .hot-latte{
+        width: 120px;
+        height: $hieght-hot-drink;
+    }
+    .americano{
+        width: 100px;
+        height: $hieght-hot-drink;
+    }
+    .honey-lemon{
+        width: 100px;
+        height: $hieght-hot-drink;
+    }
+    .orange{
+        width: 110px;
+        height: $hieght-hot-drink;
+    }
+    .macha{
+        width: 130px;
+        height:$hieght-cold-drink;
+    }
+    .chocolate{
+        width: 170px;
+        height: $hieght-cold-drink;
+    }
+    .milk-tea{
+        width: 100px;
+        height: $hieght-cold-drink;
+    }
+    .ice-latte{
+        width: 100px;
+        height: $hieght-cold-drink;
+    }
+    .macha-cream{
+        width: 100px;
+        height: $hieght-cold-drink;
+    }
+    
+}

@@ -1,0 +1,41 @@
+@import"./__variable";
+
+.sandwichs {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10vh;
+
+    .sandwich {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .ham-sandwich {
+            width: $hieght-sandwichs;
+            height: $hieght-sandwichs;
+        }
+
+        .salad-sandwich {
+            width: $hieght-sandwichs;
+            height: $hieght-sandwichs;
+        }
+
+        .tuna-sandwich {
+            width: $hieght-sandwichs;
+            height: $hieght-sandwichs;
+        }
+
+        .egg-sandwich {
+            width: $hieght-sandwichs;
+            height: $hieght-sandwichs;
+        }
+
+        .pork-sandwich {
+            width: 170px;
+            height: $hieght-sandwichs;
+        }
+
+    }
+}

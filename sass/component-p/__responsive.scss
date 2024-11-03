@@ -1,0 +1,40 @@
+@media(max-width:768px) {
+
+    .breads,
+    .croissants,
+    .loaves,
+    .sandwichs,
+    .burgers,
+    .cakes,
+    .cold,
+    .hot {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width:400px) {
+    .breads,
+    .croissants,
+    .loaves,
+    .sandwichs,
+    .burgers,
+    .cakes{
+        .strawberry-milk-cake,
+        .macha-cake{
+            margin-right: 14px;
+        }
+    }
+    button{
+        margin-bottom: 20px;
+    }
+    .cold{
+        .macha{
+            margin-left: 25px;
+        }
+    }
+    .hot{
+        flex-wrap: wrap;
+        margin-left: 25px;
+    }
+}

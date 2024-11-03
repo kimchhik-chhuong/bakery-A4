@@ -1,5 +1,14 @@
 * {
 <<<<<<< HEAD
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: #E89EA2;
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
   margin: 0px;
@@ -13,10 +22,44 @@
 
 nav {
   font-family: sans-serif;
+>>>>>>> d8c71ff97ab8f28aa1626c277813ed7a328a004b
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+<<<<<<< HEAD
+  padding: 20px;
+  gap: 30px;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+nav a:hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+nav .hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.back {
+  background-image: url(../images/background.png);
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+header {
+  height: 120vh;
+  background-image: url(../images/background.jpg);
+=======
   row-gap: 4vh;
   background-color: lightcoral;
   padding-bottom: 6vh;
@@ -66,6 +109,7 @@ header {
 >>>>>>> 40957a68e4d92264814a929982bf8f02feb91a21
   background-size: cover;
   background-repeat: no-repeat;
+>>>>>>> d8c71ff97ab8f28aa1626c277813ed7a328a004b
   display: flex;
   justify-content: center;
   align-items: center;
@@ -273,6 +317,16 @@ footer .footer {
 }
 footer .footer-L {
   display: flex;
+<<<<<<< HEAD
+  margin-left: 65rem;
+  width: 5vh;
+  height: 5vh;
+  gap: 1rem;
+  padding-top: 2%;
+}
+
+* {
+=======
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -336,6 +390,7 @@ footer .icon .instargram {
 
 * {
 >>>>>>> b04d98c67a1f647701e5fb3cd3c10b0cb53a728f
+>>>>>>> d8c71ff97ab8f28aa1626c277813ed7a328a004b
   margin: 0px;
   padding: 0px;
 }
@@ -371,7 +426,11 @@ nav ul a :hover {
 header {
   font-family: sans-serif;
   height: 120vh;
+<<<<<<< HEAD
+  background-image: url(../images/backround.jpg);
+=======
   background-image: url(../images/background.jpg);
+>>>>>>> d8c71ff97ab8f28aa1626c277813ed7a328a004b
   display: flex;
   justify-content: center;
   align-items: center;
@@ -382,7 +441,10 @@ header h1 {
   text-align: center;
   color: #CD7415;
   font-size: 100px;
+<<<<<<< HEAD
+=======
 >>>>>>> 40957a68e4d92264814a929982bf8f02feb91a21
+>>>>>>> d8c71ff97ab8f28aa1626c277813ed7a328a004b
   margin-top: 5vh;
   margin-right: 60vh;
 }
