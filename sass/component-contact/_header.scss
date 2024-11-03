@@ -1,17 +1,17 @@
-@import"variable";
-@import"group-mixins";
 header{
-    @include font;
+    font-family: sans-serif;
     height: 100vh;
-    background-image: $bg-im-header;
+    background-image: url(../images/background.png);
     background-size: cover;
     background-repeat: no-repeat;
-    @include text-centered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     justify-content: space-around;
     h1{
         text-align: center;
-        color: $color;
+        color: #CD7415;
         font-size: 100px;
         margin-top: 5vh;
         margin-right: 60vh;
@@ -19,14 +19,14 @@ header{
     span{
         font-size: 4vh;
         padding: 2vh 8vh;
-        background-color: $bg-color-span;
         margin-right: 180vh;
         margin-left: 20vh;
         border-radius: 50vh;
+        background-color: #FF9F19;
         border: none;
-        a{
-            color: $color-white;
-            text-decoration: none;
-        }
+      a{
+        color: $color-white;
+        text-decoration: none;
+      }
     }
-}
+  }
