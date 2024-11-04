@@ -36,9 +36,8 @@ nav ul li a {
   border-radius: 7px;
   transition: all 0.3s ease;
 }
-nav ul li a:hover,
-nav ul li a.active {
-  background-color: #cb5359;
+nav ul li a:hover {
+  background-color: lightpink;
 }
 
 header {

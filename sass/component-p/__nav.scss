@@ -5,7 +5,7 @@ nav {
     align-items: center;
     flex-direction: column;
     row-gap: 1vh;
-    background: rgb(248, 183, 151);
+    background: #E89EA2;
     padding-bottom: 6vh;
 
     .logo {
@@ -37,8 +37,9 @@ nav {
             text-decoration: line;
         }
 
-        li a:hover {
-            background: rgb(245, 150, 15);
+        li a:hover,
+        li a.active {
+            background: lightpink;
         }
     }
 }
